@@ -8,8 +8,8 @@ module.exports = {
     },
     extend: {
       colors: {
+        "mintable-light-gray" : "#727272",
         "mintable-gray" : "#2D2D2D",
-        "mintable-light-gray" : "#EAEAFF",
         "mintable-light-purple" : "#EAEAFF",
         "mintable-purple" : "#550DED",
         "mintable-dark-purple" : "#2C0346",

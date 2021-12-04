@@ -1,3 +1,4 @@
+import { CollectorsEvent } from "../components/raffle-reveal-page/collectors-event";
 import { GetMoreTickets } from "../components/raffle-reveal-page/get-more-tickets";
 
 const Home = () => {
@@ -6,7 +7,9 @@ const Home = () => {
       <div className="col-span-3">
         <GetMoreTickets />
       </div>
-      <div className="col-span-9"></div>
+      <div className="col-span-9">
+        <CollectorsEvent />
+      </div>
     </div>
   )
 }
