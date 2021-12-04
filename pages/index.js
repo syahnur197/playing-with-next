@@ -1,14 +1,10 @@
 import { Button } from "../components/common/Button";
 import Link from 'next/link'
+import { Navigation } from "../components/layout/Navigation";
 
 const Home = () => {
   return (
-    <div>
-      <Button>
-        Hello
-      </Button>
-      <Link href="/dashboard">Hello</Link>
-    </div>
+    <Navigation />
   )
 }
 
