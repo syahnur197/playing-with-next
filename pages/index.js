@@ -1,10 +1,13 @@
-import { Button } from "../components/common/Button";
-import Link from 'next/link'
-import { Navigation } from "../components/layout/Navigation";
+import { GetMoreTickets } from "../components/raffle-reveal-page/get-more-tickets";
 
 const Home = () => {
   return (
-    <Navigation />
+    <div className="grid grid-cols-12 gap-4">
+      <div className="col-span-3">
+        <GetMoreTickets />
+      </div>
+      <div className="col-span-9"></div>
+    </div>
   )
 }
 

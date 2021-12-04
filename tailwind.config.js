@@ -12,6 +12,8 @@ module.exports = {
         "mintable-light-gray" : "#EAEAFF",
         "mintable-light-purple" : "#EAEAFF",
         "mintable-purple" : "#550DED",
+        "mintable-dark-purple" : "#2C0346",
+        "mintable-background": "#FAFAFA",
         "primary": {
           '50': '#0dea79',
           '100': '#13d06e',
