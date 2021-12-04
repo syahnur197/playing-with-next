@@ -1,12 +1,11 @@
 import Link from "next/link"
-import { Logo } from "../common/Logo"
 import { Search } from "./Search"
 
 export const Navbar = () => {
   return (
     <div className="flex flex-row justify-between py-4 px-8 border border-b border-gray-300">
-      <div className="flex flex-row">
-        <Logo />
+      <div className="flex flex-row gap-4">
+        <img src="/mintable-logo.png" className="h-10 w-10"/>
         <Search />
       </div>
       <div className="flex flex-row">
