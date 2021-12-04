@@ -1,5 +1,5 @@
-import { CollectorsEvent } from "../components/raffle-reveal-page/collectors-event";
-import { GetMoreTickets } from "../components/raffle-reveal-page/get-more-tickets";
+import { CollectorsEvent } from "../components/raffle-reveal-page/CollectorsEvent";
+import { GetMoreTickets } from "../components/raffle-reveal-page/GetMoreTickets";
 
 const Home = () => {
   return (

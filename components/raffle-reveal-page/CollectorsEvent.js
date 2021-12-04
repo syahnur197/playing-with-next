@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "../common/Button"
-import { FakeCard } from "./fake-card"
-import { GetMoreTickets } from "./get-more-tickets"
+import { FakeCard } from "./FakeCard"
+import { GetMoreTickets } from "./GetMoreTickets"
 
 export const CollectorsEvent = () => {
   return (

@@ -1,5 +1,5 @@
 import { Button } from '../common/Button'
-import { Ticket } from './ticket'
+import { Ticket } from './Ticket'
 
 export const GetMoreTickets = () => {
   return (
